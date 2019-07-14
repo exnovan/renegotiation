@@ -1,0 +1,149 @@
+┌─[exnovan@parrot]─[/var/www/html/apache2]
+└──╼ $openssl s_client -connect exnovan.tk:443
+
+CONNECTED(00000003)
+depth=2 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+verify return:1
+depth=1 C = US, O = DigiCert Inc, OU = www.digicert.com, CN = RapidSSL RSA CA 2018
+verify return:1
+depth=0 CN = *.000webhostapp.com
+verify return:1
+---
+Certificate chain
+ 0 s:CN = *.000webhostapp.com
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = RapidSSL RSA CA 2018
+ 1 s:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = RapidSSL RSA CA 2018
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+ 2 s:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+   i:C = US, O = DigiCert Inc, OU = www.digicert.com, CN = DigiCert Global Root CA
+---
+Server certificate
+-----BEGIN CERTIFICATE-----
+MIIGQzCCBSugAwIBAgIQAa0laHpzho2fa0BMYg1P8DANBgkqhkiG9w0BAQsFADBe
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMR0wGwYDVQQDExRSYXBpZFNTTCBSU0EgQ0EgMjAxODAe
+Fw0xOTA2MTEwMDAwMDBaFw0yMTA3MTAxMjAwMDBaMB4xHDAaBgNVBAMMEyouMDAw
+d2ViaG9zdGFwcC5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDS
+1VeFEunq8KmmqZOmfEwMMQ8XyBon6dY3JpkhrFPvB18pcFBFMDsQomb0+2Sw7YUL
+RdOUyOdg+t6fyLYF26cPPD2Gz5pbHL54z4pH/l3OKWz3Zeredv1UrBmzomcV7xwu
+X0Fr4IM5X37/ncXAXkROTUX2L7Osk1Im8YrzugkloJp6fUSRN3CGi7tT0eieLj1/
+8Ypf3lbeC7n+eNlYtLkF3xgebw2vymLCDq0apsUH3/AfedPk2HrQQjahqyDKmVkT
+JrfiQGupwsPyDgioWkplWzTSYWfPvd0bnUD6OMv0AWtNyuPfWIphcv4e1/f7yae2
+HRt3yGohbtGRQlLRmguvAgMBAAGjggM7MIIDNzAfBgNVHSMEGDAWgBRTyhdZ/GvA
+AyEvGq7kqqgcglbadTAdBgNVHQ4EFgQULGuBFhMxJAICmcEsNltAm7ZUUPkwMQYD
+VR0RBCowKIITKi4wMDB3ZWJob3N0YXBwLmNvbYIRMDAwd2ViaG9zdGFwcC5jb20w
+DgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjA+
+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY2RwLnJhcGlkc3NsLmNvbS9SYXBpZFNT
+TFJTQUNBMjAxOC5jcmwwTAYDVR0gBEUwQzA3BglghkgBhv1sAQIwKjAoBggrBgEF
+BQcCARYcaHR0cHM6Ly93d3cuZGlnaWNlcnQuY29tL0NQUzAIBgZngQwBAgEwdQYI
+KwYBBQUHAQEEaTBnMCYGCCsGAQUFBzABhhpodHRwOi8vc3RhdHVzLnJhcGlkc3Ns
+LmNvbTA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMucmFwaWRzc2wuY29tL1Jh
+cGlkU1NMUlNBQ0EyMDE4LmNydDAJBgNVHRMEAjAAMIIBgQYKKwYBBAHWeQIEAgSC
+AXEEggFtAWsAdwDuS723dc5guuFCaR+r4Z5mow9+X7By2IMAxHuJeqj9ywAAAWtG
+LupkAAAEAwBIMEYCIQCRbhfk1eK9CwalKhfwJ8odjFmLMgP+ASTRXIDxCuACtgIh
+AJJYm7vNktHYGskTpVzNUPV2NcphPX3BFgGSdY3L4+qFAHcAh3W/51l8+IxDmV+9
+827/Vo1HVjb/SrVgwbTq/16ggw8AAAFrRi7rLAAABAMASDBGAiEAg9bwT7JowDEu
+3sgbL34x3Winvqbm/l6S5F0VFDj96mUCIQD5h55flAFZnf3Qp2GQGtdF6SkRLrus
+y+f3ylacQ60sywB3AESUZS6w7s6vxEAH2Kj+KMDa5oK+2MsxtT/TM5a1toGoAAAB
+a0Yu6bQAAAQDAEgwRgIhAKn1aPaoPH4KR4xT3Bv0fLVwDH/3dTQZZaqKm7En4m6X
+AiEA6pmYP8JuyhcKEx0joXOdpi4Lj5y1UcdSNRjitiN1cygwDQYJKoZIhvcNAQEL
+BQADggEBAJy0Y5EduI4Ep3geInlZ+WXi4k3w9Y9gARs1xHXZhD82U3PMkYonkBIs
+Wwz30ItA9FqI2pOG1KwytS9nieYu2IRRaPmJHPhCAXWHPGm/T1HRyFEc0p6OQY6g
+cFoSg9kAqFGogjzTIrTwLfmmjTaJNMRVivA2FFMValstTGPqPC+BccFOUD+wCHLU
+1q33d/LfFFei+1gOQT1cV04+KkPbsvONlFd3wcsONdfR2v96kWnxugX4HQsOvh31
+8nbZ8FKMG4VT5icoIygc//arJu4GUrYcQiLbL9K3a9Q3YqD8+4ip1UC/krpghWQK
+crNW8VHnUUVLd7mxjrflKrC+80DMQ5o=
+-----END CERTIFICATE-----
+subject=CN = *.000webhostapp.com
+
+issuer=C = US, O = DigiCert Inc, OU = www.digicert.com, CN = RapidSSL RSA CA 2018
+
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Peer signature type: RSA-PSS
+Server Temp Key: X25519, 253 bits
+---
+SSL handshake has read 4325 bytes and written 382 bytes
+Verification: OK
+---
+New, TLSv1.3, Cipher is TLS_AES_256_GCM_SHA384
+Server public key is 2048 bit
+Secure Renegotiation IS NOT supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+Early data was not sent
+Verify return code: 0 (ok)
+---
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 6FA37FC555D8DC2FD1463A46B7FC5CD2C40C411BB2C4DE9D9B816EDCB41181B7
+    Session-ID-ctx: 
+    Resumption PSK: 037076BA2C2B8889A49892BB3A7B86D8EECF1F62A57ACD2717A8888F8254AE0111A348D80EF91AA8265A30CB8DF47381
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 9d 7f d9 2a 9a 62 13 81-03 19 f2 08 f8 80 29 f2   ...*.b........).
+    0010 - 12 85 84 40 c2 3d 84 c7-d8 7f cd 3f 50 90 2a be   ...@.=.....?P.*.
+    0020 - 4a 1b 33 c1 a8 db cb 14-6e 5d 9b e4 27 05 11 37   J.3.....n]..'..7
+    0030 - f6 f9 ea 76 91 8a b7 2f-8a 44 cd 94 d7 86 75 f9   ...v.../.D....u.
+    0040 - 39 bf 44 54 23 72 f6 71-a9 69 17 1a 19 c9 95 22   9.DT#r.q.i....."
+    0050 - 95 2a 28 9d 70 73 50 61-0e d9 dd f3 72 e5 13 c9   .*(.psPa....r...
+    0060 - 09 dd b2 26 3e 88 4e 71-1b d7 6d 4f 14 d1 4c 1b   ...&>.Nq..mO..L.
+    0070 - 38 6a 0f 8b 00 b2 e2 08-3e a9 90 56 42 73 6a 55   8j......>..VBsjU
+    0080 - 38 02 e3 d9 fe 18 a2 01-a2 43 b3 8f a9 66 3f ab   8........C...f?.
+    0090 - 79 3b 41 d8 29 0a f1 b6-07 87 76 56 98 24 85 41   y;A.).....vV.$.A
+    00a0 - e3 d1 33 b4 f6 a0 20 e5-80 80 ed 20 e7 bf d6 1f   ..3... .... ....
+    00b0 - 72 e4 86 64 e4 ca 12 ce-d1 38 e1 00 24 53 63 4e   r..d.....8..$ScN
+    00c0 - 53 f1 9c 25 2f 2f 08 a3-09 bb 5e a5 ff 58 3b a4   S..%//....^..X;.
+    00d0 - 69 0f ba 6e 5c a5 46 8a-68 14 24 60 04 7b 6c 69   i..n\.F.h.$`.{li
+
+    Start Time: 1563107691
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+---
+Post-Handshake New Session Ticket arrived:
+SSL-Session:
+    Protocol  : TLSv1.3
+    Cipher    : TLS_AES_256_GCM_SHA384
+    Session-ID: 950B8A69B3D227E208018F86BC70A9D430FC04213E18D94088992147B379317B
+    Session-ID-ctx: 
+    Resumption PSK: C979AAB0EA3C104AC9FB65A2050905958D86A8663031AE7331D752754A7703A8CA31949E062CED9DF98F34D0798DD200
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 7200 (seconds)
+    TLS session ticket:
+    0000 - 9d 7f d9 2a 9a 62 13 81-03 19 f2 08 f8 80 29 f2   ...*.b........).
+    0010 - cb c3 b5 56 c6 d5 03 95-ee 94 7c da b9 6d 1f 58   ...V......|..m.X
+    0020 - 6c 27 a2 a7 f2 cf 55 19-18 77 3b c6 57 41 60 1c   l'....U..w;.WA`.
+    0030 - 0a bf 7e 7c 71 d2 9a 1c-7b 22 1f 71 5a 75 85 bf   ..~|q...{".qZu..
+    0040 - 12 7e 53 8c 94 f2 6c 6c-68 2f 6b cc c4 6e 25 29   .~S...llh/k..n%)
+    0050 - b2 a1 47 cb ee dd a5 3c-01 62 ec 81 ff fe 5f 4e   ..G....<.b...._N
+    0060 - 94 e3 4d 5b 92 6d 22 0c-88 25 03 f8 b5 46 14 f9   ..M[.m"..%...F..
+    0070 - 93 37 d6 28 ff 38 c4 1a-a9 98 f9 fe 56 ad 43 b7   .7.(.8......V.C.
+    0080 - 9b f8 39 8c 1b 20 9a cc-e8 ec ec 19 88 f7 91 a7   ..9.. ..........
+    0090 - 3a 35 63 1c 22 bc 85 b5-52 bd a8 4c bf 0b cd b2   :5c."...R..L....
+    00a0 - 56 86 e9 63 2a 87 c9 15-ce 68 48 89 64 bc ac bb   V..c*....hH.d...
+    00b0 - da cc 9d b6 fe 54 2e 3f-8d 59 90 18 63 c8 69 da   .....T.?.Y..c.i.
+    00c0 - 3a 10 13 aa ac ef 09 25-17 d8 5f 02 3e 9c 3e 4d   :......%.._.>.>M
+    00d0 - 86 9e 92 3b f0 5e 32 f5-88 3f c1 71 c8 b1 f1 52   ...;.^2..?.q...R
+
+    Start Time: 1563107691
+    Timeout   : 7200 (sec)
+    Verify return code: 0 (ok)
+    Extended master secret: no
+    Max Early Data: 0
+---
+read R BLOCK
+closed
